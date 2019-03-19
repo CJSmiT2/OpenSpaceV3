@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package common;
+package entity;
 
 /**
  *
  * @author smit
  */
-public class WorldSettings {
-    public static final int BOX_SIZE = 25;
+public class VoxelProperties {
+    
+    public static final int SIZE_PX = 24; // px
+    public static final float VOLUME = 1000f; // m3
+    
 }

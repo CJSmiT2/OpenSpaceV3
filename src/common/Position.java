@@ -3,13 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package entity;
+package common;
 
 /**
  *
  * @author smit
  */
 public class Position {
+    
     private double x;
     private double y;
     private double angle;

@@ -9,6 +9,11 @@ package entity.nature;
  *
  * @author smit
  */
-public class ChemicalElement {
-    
+public enum SubstanceType {
+    IRON,
+    STEEL,
+    NAPHTHA,
+    WATER,
+    GOLD,
+    URANIUM
 }

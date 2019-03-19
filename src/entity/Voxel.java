@@ -5,18 +5,21 @@
  */
 package entity;
 
-import common.WorldSettings;
+import common.Position;
 
 /**
  *
  * @author smit
  */
-public class BoxParticle {
+public class Voxel {
     
     private final int id;
-    private final int width = WorldSettings.BOX_SIZE;
-    private final int height = WorldSettings.BOX_SIZE;
     private final Position position;
-    private int weight;
+
+    public Voxel(int id, Position position) {
+        this.id = id;
+        this.position = position;
+    }
+    
     
 }
