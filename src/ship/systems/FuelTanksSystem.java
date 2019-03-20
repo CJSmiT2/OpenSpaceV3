@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package entity.nature;
-
-import entity.Voxel;
+package ship.systems;
 
 /**
  *
  * @author smit
  */
-public class StructureElement extends Voxel{
+class FuelTanksSystem {
     
 }
