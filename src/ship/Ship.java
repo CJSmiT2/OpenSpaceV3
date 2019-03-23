@@ -13,8 +13,13 @@ import ship.systems.Systems;
  */
 public class Ship {
     
-    private final int id;
-    private final ShipShape shape;
-    private final Systems systems = new Systems();
-    
+    public final int id;
+    public final ShipShape shape;
+    public final Systems systems = new Systems(this);
+
+    public Ship(int id, ShipShape shape) {
+        this.id = id;
+        this.shape = shape;
+    }
+
 }

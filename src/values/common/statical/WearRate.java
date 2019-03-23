@@ -3,17 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ship.systems;
-
-import ship.Ship;
+package values.common.statical;
 
 /**
  *
  * @author smit
  */
-class StorageSystem {
+public class WearRate {
+    
+    public final float value;
 
-    StorageSystem(Ship ship) {
+    public WearRate(float value) {
+        this.value = value;
     }
     
 }

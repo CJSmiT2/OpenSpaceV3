@@ -3,17 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ship.systems;
-
-import ship.Ship;
+package values.common.dinamic;
 
 /**
  *
  * @author smit
  */
-class StorageSystem {
-
-    StorageSystem(Ship ship) {
-    }
+public class Energy {
     
+    public float value;
+
+    public Energy(float value) {
+        this.value = value;
+    }
+
 }

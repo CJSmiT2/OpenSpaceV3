@@ -11,21 +11,12 @@ package ship;
  */
 public class PartPosition {
     
-    private final byte x;
-    private final byte y;
+    public final byte x;
+    public final byte y;
 
     public PartPosition(byte x, byte y) {
         this.x = x;
         this.y = y;
     }
-
-    public byte getX() {
-        return x;
-    }
-
-    public byte getY() {
-        return y;
-    }
-    
     
 }

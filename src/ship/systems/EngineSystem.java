@@ -7,11 +7,19 @@ package ship.systems;
 
 import ship.systems.engine.Engine;
 import java.util.ArrayList;
+import ship.Ship;
 
 /**
  *
  * @author smit
  */
-class EngineSystem {
+public class EngineSystem {
+    
+    private final Ship ship;
     private final ArrayList<Engine> engines = new ArrayList();
+
+    EngineSystem(Ship ship) {
+        this.ship = ship;
+    }
+    
 }

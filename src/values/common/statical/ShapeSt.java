@@ -3,17 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ship.systems;
-
-import ship.Ship;
+package values.common.statical;
 
 /**
  *
  * @author smit
  */
-class StorageSystem {
-
-    StorageSystem(Ship ship) {
-    }
+public class ShapeSt {
     
+    public final boolean[][] shape;
+
+    public ShapeSt(boolean[][] shape) {
+        this.shape = shape;
+    }
+
 }

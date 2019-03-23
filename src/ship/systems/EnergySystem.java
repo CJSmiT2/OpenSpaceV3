@@ -7,6 +7,7 @@ package ship.systems;
 
 import java.util.ArrayList;
 import ship.PartShip;
+import ship.Ship;
 
 /**
  *
@@ -15,4 +16,7 @@ import ship.PartShip;
 class EnergySystem {
     
     private final ArrayList<PartShip> parts = new ArrayList();
+
+    EnergySystem(Ship ship) {
+    }
 }

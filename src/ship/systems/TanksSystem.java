@@ -5,10 +5,15 @@
  */
 package ship.systems;
 
+import ship.Ship;
+
 /**
  *
  * @author smit
  */
 class TanksSystem {
+
+    TanksSystem(Ship ship) {
+    }
     
 }

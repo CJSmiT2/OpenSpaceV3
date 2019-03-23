@@ -10,5 +10,5 @@ package ship;
  * @author smit
  */
 public enum ShipShapeName {
-    ONE, TWO
+    DEFAULT, TWO
 }

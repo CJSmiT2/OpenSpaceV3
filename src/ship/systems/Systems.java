@@ -5,16 +5,30 @@
  */
 package ship.systems;
 
+import ship.Ship;
+
 /**
  *
  * @author smit
  */
 public class Systems {
     
-    private final EnergySystem energySystem = new EnergySystem();
-    private final EngineSystem engineSystem = new EngineSystem();
-    private final FuelTanksSystem fuelTanksSystem = new FuelTanksSystem();
-    private final StorageSystem storageSystem = new StorageSystem();
-    private final TanksSystem tankSystem = new TanksSystem();
-    private final PassiveSystem passiveSystem = new PassiveSystem();
+    public final EnergySystem energySystem;
+    public final EngineSystem engineSystem;
+    public final FuelTanksSystem fuelTanksSystem;
+    public final StorageSystem storageSystem;
+    public final TanksSystem tankSystem;
+    public final PassiveSystem passiveSystem;
+
+    public Systems(Ship ship) {
+        energySystem = new EnergySystem(ship);
+        engineSystem = new EngineSystem(ship);
+        fuelTanksSystem = new FuelTanksSystem(ship);
+        storageSystem = new StorageSystem(ship);
+        tankSystem = new TanksSystem(ship);
+        passiveSystem = new PassiveSystem(ship);
+    }
+    
+    
+    
 }

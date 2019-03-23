@@ -3,17 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ship.systems;
-
-import ship.Ship;
+package values.common.statical;
 
 /**
  *
  * @author smit
  */
-class StorageSystem {
+public class HpSt {
+    
+    public final int value;
 
-    StorageSystem(Ship ship) {
+    public HpSt(int value) {
+        this.value = value;
     }
     
 }
